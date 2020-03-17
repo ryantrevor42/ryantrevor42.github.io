@@ -1,0 +1,162 @@
+
+
+
+body {
+    background-image: url(images/Logo.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+label {
+  margin-left: 20px;
+}
+
+.title {
+  background-color: #3e3e3e;
+  color: #f4f4f4;
+  margin-top:0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+  position: fixed;
+  left: 2px;
+  background-color: #333;
+  padding: 15px;
+  margin: 5px;
+}
+
+.navs {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.dropdown, .btn, .dropdown-menu  {
+  position: fixed;
+  z-index: 1;
+}
+
+.block1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.block2 {
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+  background-color: #f4f4f4;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+.block3 {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.block2 img {
+  height: 50%;
+  width: 95%;
+  border-radius: 20%;
+  border: 1px solid black;
+}
+
+
+.clear-fix {
+  clear: both;
+}
+
+.button {
+  width:20%;
+  box-shadow: -1px 3px 0px 1px black;
+  position:relative;
+  left: 40%;
+}
+
+.navmenu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.block1 h1 {
+    font-size: 50px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    text-shadow: -10px 8px 16px black;
+}
+
+.block3 img {
+  height: 250px;
+  width: 33%;
+}
+
+.form-group h2 {
+  text-align: center;
+}
+
+
+.my-form .form-group {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+  padding: 8px;
+  width: 90%;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.form-group {
+  padding: 10px;
+  background-color: #f4f4f4;
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+  width: 560px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
