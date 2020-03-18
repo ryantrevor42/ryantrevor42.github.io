@@ -63,7 +63,14 @@ label {
   width: 33.3%;
   background-color: #f4f4f4;
   border-radius: 10%;
-  border: 2px solid black;
+  border: 2px solid black; 
+  transition: all .2s ease-in-out; 
+}
+
+.block2:hover { 
+  transform: scale(1.1); 
+}
+
 }
 
 .block3 {
