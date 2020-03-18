@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url(images/Logo.jpg); 
+    background-image: url(Logo.jpg); 
     background-size: cover;
     background-attachment: fixed;
 }
@@ -68,7 +68,7 @@ label {
 }
 
 .block2:hover { 
-  transform: scale(1.1); 
+  transform: scale(2.1); 
 }
 
 }
